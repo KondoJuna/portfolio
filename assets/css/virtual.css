@@ -117,6 +117,27 @@ a:hover, a:active {
     width: 100%;height: auto;
 }
 
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin: 4em 0;
+}
+
+.wrapper a{
+    width: 50%;
+    margin: 1em;
+    text-decoration: none;
+
+}
+
+.wrapper a img{
+    width: 100%;
+}
+
+.wrapper a .img-caption p{
+    color: rgb(150, 111, 77);
+}
+
 /* Overlay */
 .overlay {
     position: fixed;
