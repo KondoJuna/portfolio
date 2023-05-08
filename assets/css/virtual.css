@@ -119,12 +119,14 @@ a:hover, a:active {
 
 .wrapper{
     width: 100%;
-    display: flex;
-    margin: 4em 0;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .wrapper a{
-    width: 50%;
+    display: inline-block;
+    width: 40%;
     margin: 1em;
     text-decoration: none;
 
@@ -133,7 +135,9 @@ a:hover, a:active {
 .wrapper a img{
     width: 100%;
 }
-
+.wrapper a .img-caption{
+    text-align: left;
+}
 .wrapper a .img-caption p{
     color: rgb(150, 111, 77);
 }
